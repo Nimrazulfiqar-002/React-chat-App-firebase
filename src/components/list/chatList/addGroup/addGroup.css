@@ -1,0 +1,33 @@
+.addGroup{
+    width: max-content;
+    height: max-content;
+    padding: 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background-color:rgb(63 51 101 / 47%);
+    margin-left: 500px;
+    form{
+        display: flex;
+        gap: 20px;
+        input{
+            padding: 20px;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+        }
+        button{
+            padding: 20px;
+            border-radius: 10px;
+            color: white;
+            background-color: #3AC8C2;
+            border: none;
+            cursor: pointer;
+        }
+    }
+
+}

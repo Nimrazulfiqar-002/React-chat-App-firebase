@@ -1,0 +1,11 @@
+.list{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+/* scrolling bar */
+body ::-webkit-scrollbar{
+    height: 100%;
+    /* width: 8px; */
+    width: 0.417vw;
+}
